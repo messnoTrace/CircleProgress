@@ -1,0 +1,20 @@
+
+<resources>
+
+    <declare-styleable name="CircleProgress">
+        <attr name="cir_progress" format="integer" />
+        <attr name="cir_angle" format="float" />
+        <attr name="cir_stroke_width" format="dimension" />
+        <attr name="cir_max" format="integer" />
+        <attr name="cir_unfinished_color" format="color" />
+        <attr name="cir_finished_color" format="color" />
+        <attr name="cir_text_size" format="dimension" />
+        <attr name="cir_text_color" format="color" />
+        <attr name="cir_suffix_text" format="string" />
+        <attr name="cir_suffix_text_size" format="dimension" />
+        <attr name="cir_suffix_text_padding" format="dimension" />
+        <attr name="cir_bottom_text" format="string" />
+        <attr name="cir_bottom_text_size" format="dimension" />
+    </declare-styleable>
+
+</resources>
