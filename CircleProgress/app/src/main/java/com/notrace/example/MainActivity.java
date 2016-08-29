@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void run() {
-                while (progress <= 66) {
+                while (progress <= 100) {
                     progress += 3;
 
                     System.out.println(progress);
