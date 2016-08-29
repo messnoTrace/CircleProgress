@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void run() {
-                while (progress <= 75) {
-                    progress += 3;
+                while (progress <= 99) {
+                    progress += 1;
 
                     System.out.println(progress);
                     mRoundProgressBar.setProgress(progress);
